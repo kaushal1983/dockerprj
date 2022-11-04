@@ -6,11 +6,9 @@
 
     <groupId>com.mkyong</groupId>
     <artifactId>docker-spring-boot</artifactId>
-<<<<<<< HEAD
+
     <version>1.0.2</version>
-=======
-    <version>1.0.1.snap123</version>
->>>>>>> ca6ca8a9287d0fbc1d4f21ade78ed549fdda0b5a
+
 
     <name>docker-spring-boot</name>
     <url></url>
@@ -66,9 +64,7 @@
                 </configuration>
             </plugin>
            
-<<<<<<< HEAD
-    
-=======
+
     <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-compiler-plugin</artifactId>
@@ -77,7 +73,7 @@
         <target>1.8</target>
     </configuration>
 </plugin>
->>>>>>> ca6ca8a9287d0fbc1d4f21ade78ed549fdda0b5a
+
 
         </plugins>
     </build>
