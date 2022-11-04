@@ -10,11 +10,11 @@ ARG JAR_FILE=target/spring-boot-web.jar
 # cd /opt/app
 WORKDIR /opt/app
 
-# cp target/spring-boot-web.jar /opt/app/app.jar
-COPY ${JAR_FILE} app.jar
+# cp target/spring-boot-web.jar /opt/app/app1.jar
+COPY ${JAR_FILE} app1.jar
 
-# java -jar /opt/app/app.jar
-ENTRYPOINT ["java","-jar","app.jar"]
+# java -jar /opt/app/app1.jar
+ENTRYPOINT ["java","-jar","app1.jar"]
 
 ## sudo docker run -p 8080:8080 -t docker-spring-boot:1.0
 ## sudo docker run -p 80:8080 -t docker-spring-boot:1.0
